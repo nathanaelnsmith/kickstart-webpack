@@ -1,0 +1,29 @@
+{
+  "name": "kickstart-webpack",
+  "version": "1.0.0",
+  "description": "A webpack implementation of the Kickstart Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaelnsmith/kickstart-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanaelnsmith/kickstart-webpack/issues"
+  },
+  "homepage": "https://github.com/nathanaelnsmith/kickstart-webpack#readme",
+  "devDependencies": {
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "kickstart-node": "github:adamjgrant/kickstart",
+    "path": "^0.12.7",
+    "webpack": "^3.8.1"
+  }
+}

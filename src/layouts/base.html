@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    {{title}}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header class="main-nav">
+    <nav>
+      <ul>
+        <li> <a href="/">Home</a> </li>
+      </ul>
+
+      <ul>
+        <li> <a href="/products">Products</a> </li>
+        <li> <a href="/blog">Blog</a> </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <aside class="content-news">
+      <h1>News</h1>
+      <button id="all-news">All News</button>
+    </aside>
+
+    <main class="content-articles">
+      {{> @partial-block }}
+    </main>
+  </main>
+</body>
+
+</html>

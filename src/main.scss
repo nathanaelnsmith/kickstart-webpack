@@ -1,0 +1,22 @@
+@import '~kickstart-node/lib-core/sass/themes/default/theme.sass';
+
+.main-nav {
+  @include navbar($background-color: #333);
+}
+.content          { @include row(); }
+.content-news     { @include column('third'); }
+.content-articles { @include column('twothirds'); }
+.hero-img {
+  display: none;
+
+  @include gt($tablet) {
+    display: block;
+  }
+}
+.wrapper {
+  @include wrapper();
+}
+.all-news-modal {
+  @include modal();
+}
+.content-news h1 { @include heading_sm;}
